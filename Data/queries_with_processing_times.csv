@@ -1,0 +1,2000 @@
+query,processing_time
+"SELECT * FROM Products WHERE Price > 500;
+",1.666015625
+"SELECT * FROM Customers WHERE LastName LIKE 'S%';
+",0.591064453125
+"SELECT OrderID, CustomerID FROM Orders WHERE OrderDate BETWEEN '2024-07-01' AND '2024-07-05';
+",0.555908203125
+"SELECT ProductName, Stock FROM Products WHERE Stock < 100;
+",0.737060546875
+"SELECT COUNT(*) FROM Orders WHERE TotalAmount > 100;
+",0.5
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (6, 'Mouse', 29.99, 150);
+",
+"UPDATE Products SET Stock = Stock + 10 WHERE ProductID = 1;
+",6.773193359375
+"DELETE FROM Customers WHERE CustomerID = 5;
+",0.543701171875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID;
+",0.515380859375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 1;
+",0.488037109375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 95;
+",0.406005859375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 2;
+",1.060302734375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (58, 'First58', 'Last58');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (22, 'First22', 'Last22');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (58, 'First58', 'Last58');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 10;
+",1.02783203125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 79;
+",0.42578125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 94;
+",1.462890625
+"SELECT * FROM Products WHERE ProductID = 46;
+",0.6376953125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 47;
+",0.546142578125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 43;
+",1.28369140625
+"DELETE FROM Orders WHERE OrderID = 26;
+",0.88916015625
+"DELETE FROM Orders WHERE OrderID = 23;
+",0.399658203125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 81;
+",0.76123046875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (29, 'First29', 'Last29');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 1;
+",1.375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 34;
+",0.56591796875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (11, 'Product11', 160.080146925103, 108);
+",
+"DELETE FROM Orders WHERE OrderID = 29;
+",1.34716796875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 73;
+",1.8310546875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (73, 'Product73', 631.954114391555, 183);
+",
+"SELECT * FROM Customers WHERE CustomerID = 34;
+",1.190185546875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 46;
+",0.572021484375
+"SELECT * FROM Products WHERE ProductID = 65;
+",0.607177734375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (7, 'First7', 'Last7');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 43;
+",1.255126953125
+"SELECT * FROM Customers WHERE CustomerID = 77;
+",0.47900390625
+"SELECT * FROM Products WHERE ProductID = 9;
+",0.616943359375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 96;
+",1.013916015625
+"SELECT * FROM Customers WHERE CustomerID = 1;
+",0.468994140625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 77;
+",1.040283203125
+"SELECT * FROM Customers WHERE CustomerID = 36;
+",0.56005859375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 99;
+",0.458984375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 36;
+",0.64990234375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 10;
+",1.215087890625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (11, 'First11', 'Last11');
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 21;
+",0.9833984375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (16, 'First16', 'Last16');
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 40;
+",0.926025390625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 68;
+",0.458984375
+"DELETE FROM Orders WHERE OrderID = 8;
+",0.455078125
+"DELETE FROM Orders WHERE OrderID = 73;
+",0.406005859375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 2;
+",0.386962890625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 54;
+",0.826171875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 88;
+",0.449951171875
+"SELECT * FROM Customers WHERE CustomerID = 2;
+",0.511962890625
+"SELECT * FROM Customers WHERE CustomerID = 45;
+",0.435302734375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 41;
+",0.699951171875
+"DELETE FROM Orders WHERE OrderID = 99;
+",0.78076171875
+"DELETE FROM Orders WHERE OrderID = 98;
+",0.42333984375
+"SELECT * FROM Products WHERE ProductID = 42;
+",0.45068359375
+"SELECT * FROM Customers WHERE CustomerID = 55;
+",0.40478515625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 46;
+",1.2861328125
+"SELECT * FROM Customers WHERE CustomerID = 77;
+",0.37890625
+"SELECT * FROM Products WHERE ProductID = 6;
+",0.39208984375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 29;
+",1.11376953125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 100;
+",0.468994140625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (18, 'First18', 'Last18');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 85;
+",1.0380859375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (80, 'Product80', 735.8030561272367, 116);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (22, 'First22', 'Last22');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 20;
+",0.776123046875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (57, 'First57', 'Last57');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 62;
+",1.181396484375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (40, 'First40', 'Last40');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (53, 'First53', 'Last53');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 35;
+",1.322021484375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 55;
+",0.381103515625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 49;
+",0.405029296875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 97;
+",0.342041015625
+"SELECT * FROM Customers WHERE CustomerID = 34;
+",0.318115234375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 33;
+",0.8388671875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (39, 'First39', 'Last39');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (90, 'Product90', 806.1334612517463, 151);
+",
+"SELECT * FROM Customers WHERE CustomerID = 7;
+",1.03515625
+"DELETE FROM Orders WHERE OrderID = 58;
+",0.427001953125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 85;
+",0.361083984375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 79;
+",0.5439453125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 99;
+",1.1279296875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 80;
+",0.358154296875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 11;
+",0.340087890625
+"DELETE FROM Orders WHERE OrderID = 96;
+",0.341064453125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (53, 'First53', 'Last53');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 54;
+",0.873046875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 47;
+",0.338134765625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 62;
+",0.351806640625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 14;
+",0.391845703125
+"SELECT * FROM Customers WHERE CustomerID = 52;
+",0.373046875
+"SELECT * FROM Products WHERE ProductID = 19;
+",0.40771484375
+"SELECT * FROM Customers WHERE CustomerID = 67;
+",0.377197265625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (92, 'Product92', 512.1047280534378, 100);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (97, 'Product97', 213.04539439449198, 165);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (29, 'Product29', 987.7857682961555, 114);
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 96;
+",0.82470703125
+"DELETE FROM Orders WHERE OrderID = 82;
+",0.3759765625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 19;
+",0.97705078125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (52, 'First52', 'Last52');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 58;
+",1.170166015625
+"SELECT * FROM Customers WHERE CustomerID = 12;
+",0.483642578125
+"SELECT * FROM Products WHERE ProductID = 89;
+",0.489990234375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (84, 'Product84', 970.2234463709624, 109);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 56;
+",1.166015625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 53;
+",0.406005859375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 33;
+",0.39501953125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (74, 'First74', 'Last74');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 85;
+",0.826171875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 48;
+",0.423828125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 39;
+",0.382080078125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 87;
+",0.39794921875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 61;
+",1.157958984375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 53;
+",0.528076171875
+"SELECT * FROM Products WHERE ProductID = 74;
+",0.366943359375
+"DELETE FROM Orders WHERE OrderID = 54;
+",0.419189453125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 17;
+",0.47021484375
+"DELETE FROM Orders WHERE OrderID = 16;
+",0.781005859375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (64, 'First64', 'Last64');
+",
+"SELECT * FROM Products WHERE ProductID = 43;
+",1.85400390625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 15;
+",0.406005859375
+"SELECT * FROM Customers WHERE CustomerID = 97;
+",0.36865234375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 67;
+",0.34912109375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 52;
+",0.302978515625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 64;
+",0.85107421875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 5;
+",0.43603515625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 90;
+",0.351806640625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 89;
+",0.33203125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 30;
+",0.55078125
+"SELECT * FROM Customers WHERE CustomerID = 5;
+",0.458984375
+"SELECT * FROM Products WHERE ProductID = 35;
+",0.43896484375
+"DELETE FROM Orders WHERE OrderID = 84;
+",0.423095703125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (60, 'First60', 'Last60');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 29;
+",1.02978515625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 20;
+",0.883056640625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 63;
+",0.441162109375
+"SELECT * FROM Products WHERE ProductID = 58;
+",0.42919921875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 83;
+",0.3740234375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 55;
+",1.247802734375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 79;
+",0.458251953125
+"SELECT * FROM Products WHERE ProductID = 34;
+",0.393798828125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 61;
+",0.424072265625
+"DELETE FROM Orders WHERE OrderID = 49;
+",0.37353515625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (55, 'Product55', 407.2769372127686, 176);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 37;
+",0.98388671875
+"SELECT * FROM Customers WHERE CustomerID = 58;
+",0.4638671875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 6;
+",0.83203125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 86;
+",0.42236328125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 91;
+",1.054931640625
+"SELECT * FROM Products WHERE ProductID = 57;
+",0.3828125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 85;
+",0.362060546875
+"SELECT * FROM Customers WHERE CustomerID = 88;
+",0.375732421875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (59, 'Product59', 602.1852405613407, 56);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 79;
+",1.200927734375
+"SELECT * FROM Products WHERE ProductID = 73;
+",0.451904296875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 47;
+",0.455810546875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (13, 'First13', 'Last13');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 77;
+",0.7841796875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (24, 'First24', 'Last24');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 16;
+",0.7880859375
+"DELETE FROM Orders WHERE OrderID = 27;
+",0.364990234375
+"SELECT * FROM Products WHERE ProductID = 61;
+",0.400390625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 25;
+",0.704833984375
+"DELETE FROM Orders WHERE OrderID = 33;
+",0.356201171875
+"DELETE FROM Orders WHERE OrderID = 85;
+",0.343994140625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 31;
+",0.39697265625
+"DELETE FROM Orders WHERE OrderID = 100;
+",0.361083984375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (47, 'First47', 'Last47');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 93;
+",1.15625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 47;
+",0.363037109375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 94;
+",0.347900390625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 17;
+",0.822021484375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 4;
+",0.3779296875
+"SELECT * FROM Products WHERE ProductID = 81;
+",0.36572265625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 8;
+",0.39111328125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (68, 'Product68', 582.9195805692385, 76);
+",
+"DELETE FROM Orders WHERE OrderID = 95;
+",0.779052734375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 5;
+",0.447021484375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (83, 'Product83', 19.3614824705341, 196);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 69;
+",0.69580078125
+"DELETE FROM Orders WHERE OrderID = 43;
+",0.337890625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 17;
+",0.329833984375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (32, 'First32', 'Last32');
+",
+"SELECT * FROM Customers WHERE CustomerID = 27;
+",1.4287109375
+"SELECT * FROM Products WHERE ProductID = 93;
+",0.41015625
+"SELECT * FROM Customers WHERE CustomerID = 36;
+",0.375732421875
+"SELECT * FROM Products WHERE ProductID = 93;
+",0.526123046875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 20;
+",1.447021484375
+"SELECT * FROM Customers WHERE CustomerID = 19;
+",0.47607421875
+"SELECT * FROM Products WHERE ProductID = 9;
+",0.585205078125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 33;
+",1.9970703125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 25;
+",2.0419921875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 65;
+",1.14697265625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 40;
+",0.624267578125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 82;
+",0.466796875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 56;
+",0.439208984375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (77, 'Product77', 749.2471642482709, 136);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (72, 'Product72', 441.12691991469814, 7);
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 30;
+",1.57421875
+"SELECT * FROM Products WHERE ProductID = 7;
+",0.462158203125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 34;
+",0.781982421875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 40;
+",0.48486328125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 91;
+",1.537109375
+"DELETE FROM Orders WHERE OrderID = 64;
+",0.47705078125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 1;
+",0.4013671875
+"SELECT * FROM Customers WHERE CustomerID = 20;
+",0.38330078125
+"SELECT * FROM Products WHERE ProductID = 24;
+",0.348876953125
+"SELECT * FROM Products WHERE ProductID = 23;
+",0.3330078125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 85;
+",0.321044921875
+"SELECT * FROM Customers WHERE CustomerID = 38;
+",0.3330078125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 33;
+",0.326904296875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 88;
+",0.337158203125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 54;
+",0.734130859375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 67;
+",0.35400390625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 14;
+",0.299072265625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 83;
+",0.3349609375
+"SELECT * FROM Customers WHERE CustomerID = 34;
+",0.31591796875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 56;
+",0.35302734375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (5, 'Product5', 773.4006644915464, 97);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 38;
+",0.806884765625
+"DELETE FROM Orders WHERE OrderID = 24;
+",0.306640625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 42;
+",0.54638671875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (48, 'First48', 'Last48');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 22;
+",0.75634765625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 76;
+",0.39501953125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (57, 'First57', 'Last57');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (46, 'Product46', 694.839506479901, 38);
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 46;
+",1.18994140625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 4;
+",0.38720703125
+"SELECT * FROM Customers WHERE CustomerID = 15;
+",0.328857421875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 92;
+",0.784912109375
+"SELECT * FROM Customers WHERE CustomerID = 56;
+",0.5302734375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 26;
+",0.32421875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 86;
+",0.739990234375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 78;
+",0.32275390625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (60, 'First60', 'Last60');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 27;
+",1.198974609375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 20;
+",0.510009765625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (93, 'Product93', 612.4482061702164, 27);
+",
+"DELETE FROM Orders WHERE OrderID = 86;
+",1.339111328125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 75;
+",0.80908203125
+"DELETE FROM Orders WHERE OrderID = 77;
+",0.404052734375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (94, 'First94', 'Last94');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 11;
+",0.837890625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (55, 'Product55', 917.1414812543685, 66);
+",
+"SELECT * FROM Products WHERE ProductID = 97;
+",0.76025390625
+"DELETE FROM Orders WHERE OrderID = 7;
+",0.35400390625
+"DELETE FROM Orders WHERE OrderID = 47;
+",0.35693359375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 83;
+",0.335205078125
+"SELECT * FROM Customers WHERE CustomerID = 4;
+",0.578857421875
+"SELECT * FROM Products WHERE ProductID = 6;
+",0.357177734375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (86, 'Product86', 216.53071243215828, 32);
+",
+"DELETE FROM Orders WHERE OrderID = 69;
+",1.203125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 9;
+",0.358154296875
+"SELECT * FROM Products WHERE ProductID = 4;
+",0.328857421875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 17;
+",0.307861328125
+"SELECT * FROM Customers WHERE CustomerID = 33;
+",0.278076171875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 76;
+",0.27587890625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 98;
+",0.342041015625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 24;
+",0.349853515625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 17;
+",0.31396484375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 46;
+",0.968994140625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 29;
+",0.453125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (13, 'Product13', 289.009049921692, 113);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 55;
+",0.878173828125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 85;
+",0.336181640625
+"SELECT * FROM Customers WHERE CustomerID = 90;
+",0.389892578125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 16;
+",0.32080078125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 56;
+",0.86279296875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 78;
+",0.322021484375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 87;
+",0.322021484375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (29, 'First29', 'Last29');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 31;
+",1.2880859375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 46;
+",0.361083984375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (55, 'First55', 'Last55');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (25, 'Product25', 15.987105616993723, 140);
+",
+"DELETE FROM Orders WHERE OrderID = 75;
+",2.1376953125
+"SELECT * FROM Products WHERE ProductID = 98;
+",0.375244140625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 26;
+",0.7431640625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 89;
+",0.2861328125
+"DELETE FROM Orders WHERE OrderID = 75;
+",0.279541015625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 28;
+",1.20703125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 89;
+",1.051025390625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 27;
+",0.35205078125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 31;
+",0.291259765625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 45;
+",0.549072265625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 32;
+",0.29833984375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 36;
+",0.32275390625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 84;
+",0.30615234375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 4;
+",0.318115234375
+"DELETE FROM Orders WHERE OrderID = 26;
+",0.242919921875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (74, 'Product74', 972.9929602194985, 12);
+",
+"SELECT * FROM Products WHERE ProductID = 52;
+",1.166015625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (78, 'Product78', 367.5982457942347, 53);
+",
+"SELECT * FROM Customers WHERE CustomerID = 49;
+",1.11279296875
+"SELECT * FROM Products WHERE ProductID = 6;
+",0.33984375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 70;
+",0.590087890625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (60, 'Product60', 267.3775905811544, 38);
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 94;
+",1.01220703125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 88;
+",0.34619140625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 78;
+",1.09375
+"SELECT * FROM Customers WHERE CustomerID = 24;
+",0.353759765625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 72;
+",0.312744140625
+"SELECT * FROM Products WHERE ProductID = 31;
+",0.539306640625
+"SELECT * FROM Customers WHERE CustomerID = 3;
+",0.323974609375
+"SELECT * FROM Products WHERE ProductID = 34;
+",0.37939453125
+"DELETE FROM Orders WHERE OrderID = 33;
+",0.302978515625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 69;
+",0.338134765625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (75, 'Product75', 379.8975743543251, 189);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 20;
+",1.176025390625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 25;
+",0.325927734375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (25, 'Product25', 141.61323924384862, 7);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 28;
+",0.748779296875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 15;
+",0.31103515625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 50;
+",0.311279296875
+"SELECT * FROM Products WHERE ProductID = 69;
+",0.309814453125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 70;
+",0.251953125
+"SELECT * FROM Customers WHERE CustomerID = 3;
+",0.285888671875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 34;
+",0.352783203125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 88;
+",0.314208984375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 79;
+",0.324951171875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 24;
+",0.383056640625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 94;
+",0.48779296875
+"SELECT * FROM Customers WHERE CustomerID = 85;
+",0.3681640625
+"DELETE FROM Orders WHERE OrderID = 34;
+",0.305908203125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 43;
+",0.263916015625
+"SELECT * FROM Products WHERE ProductID = 81;
+",0.32080078125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (84, 'First84', 'Last84');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 73;
+",1.01171875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (2, 'First2', 'Last2');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (89, 'First89', 'Last89');
+",
+"DELETE FROM Orders WHERE OrderID = 85;
+",1.11376953125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (91, 'Product91', 415.0967595206258, 29);
+",
+"DELETE FROM Orders WHERE OrderID = 62;
+",0.98486328125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 43;
+",0.3740234375
+"SELECT * FROM Products WHERE ProductID = 75;
+",0.2958984375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (10, 'Product10', 646.128553358946, 164);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 14;
+",0.7890625
+"SELECT * FROM Customers WHERE CustomerID = 11;
+",0.280029296875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 84;
+",0.315185546875
+"SELECT * FROM Products WHERE ProductID = 19;
+",0.263916015625
+"SELECT * FROM Products WHERE ProductID = 42;
+",0.25830078125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (37, 'First37', 'Last37');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 70;
+",0.9150390625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 39;
+",1.3388671875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 80;
+",1.02099609375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 77;
+",0.333984375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (86, 'Product86', 68.08287741078175, 103);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 6;
+",0.822021484375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 100;
+",0.449951171875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 16;
+",0.356689453125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (75, 'Product75', 946.3909014192022, 85);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 60;
+",0.71484375
+"SELECT * FROM Customers WHERE CustomerID = 35;
+",0.347900390625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 44;
+",0.34619140625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (19, 'Product19', 998.2007911748502, 30);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (93, 'First93', 'Last93');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (66, 'Product66', 296.388312375247, 155);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 89;
+",1.1318359375
+"DELETE FROM Orders WHERE OrderID = 15;
+",0.385986328125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 33;
+",0.31005859375
+"DELETE FROM Orders WHERE OrderID = 32;
+",0.331787109375
+"SELECT * FROM Customers WHERE CustomerID = 46;
+",0.329345703125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 71;
+",0.315185546875
+"DELETE FROM Orders WHERE OrderID = 58;
+",0.343994140625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 20;
+",0.36279296875
+"DELETE FROM Orders WHERE OrderID = 47;
+",0.35498046875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (39, 'Product39', 247.87675360295015, 199);
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 100;
+",1.101806640625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 35;
+",0.4091796875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 7;
+",0.384765625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 48;
+",0.3798828125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 23;
+",0.3359375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 59;
+",0.3662109375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (75, 'First75', 'Last75');
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 90;
+",0.952880859375
+"DELETE FROM Orders WHERE OrderID = 88;
+",0.31298828125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 8;
+",0.298828125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 79;
+",0.2890625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 4;
+",0.34912109375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 57;
+",0.3779296875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 55;
+",0.39208984375
+"SELECT * FROM Products WHERE ProductID = 7;
+",0.35302734375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 7;
+",0.35498046875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 47;
+",0.32080078125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 86;
+",0.346923828125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 16;
+",0.3681640625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (70, 'Product70', 68.24565201035723, 123);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 3;
+",0.978759765625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (76, 'First76', 'Last76');
+",
+"SELECT * FROM Products WHERE ProductID = 78;
+",1.210205078125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 47;
+",0.3818359375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 88;
+",0.36572265625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (97, 'First97', 'Last97');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 26;
+",1.011962890625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 46;
+",0.35595703125
+"SELECT * FROM Customers WHERE CustomerID = 49;
+",0.2978515625
+"DELETE FROM Orders WHERE OrderID = 81;
+",0.30908203125
+"SELECT * FROM Customers WHERE CustomerID = 58;
+",0.29736328125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 28;
+",0.322998046875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 34;
+",0.69189453125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 43;
+",0.81689453125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 25;
+",0.3232421875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (44, 'Product44', 663.3368340423748, 74);
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 45;
+",1.125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 34;
+",0.717041015625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 27;
+",0.36279296875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 1;
+",0.364990234375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 15;
+",0.36083984375
+"DELETE FROM Orders WHERE OrderID = 62;
+",0.3291015625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 2;
+",0.343017578125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 74;
+",0.35791015625
+"DELETE FROM Orders WHERE OrderID = 60;
+",0.343994140625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 75;
+",0.343994140625
+"SELECT * FROM Products WHERE ProductID = 88;
+",0.364013671875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 91;
+",0.819091796875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (44, 'First44', 'Last44');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (90, 'First90', 'Last90');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 38;
+",0.830810546875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (34, 'First34', 'Last34');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 92;
+",1.287841796875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 59;
+",0.97607421875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (94, 'First94', 'Last94');
+",
+"SELECT * FROM Customers WHERE CustomerID = 54;
+",0.8408203125
+"SELECT * FROM Products WHERE ProductID = 30;
+",0.342041015625
+"DELETE FROM Orders WHERE OrderID = 57;
+",0.334228515625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 61;
+",0.328857421875
+"SELECT * FROM Products WHERE ProductID = 98;
+",0.333740234375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 78;
+",0.67724609375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 6;
+",0.8359375
+"DELETE FROM Orders WHERE OrderID = 70;
+",0.347900390625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 42;
+",0.365234375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 69;
+",0.94384765625
+"SELECT * FROM Customers WHERE CustomerID = 95;
+",0.39208984375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (33, 'First33', 'Last33');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 65;
+",0.762939453125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 42;
+",0.385986328125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 45;
+",0.96630859375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 7;
+",0.372802734375
+"SELECT * FROM Products WHERE ProductID = 76;
+",0.36279296875
+"DELETE FROM Orders WHERE OrderID = 19;
+",0.332275390625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 9;
+",0.369140625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 54;
+",0.9599609375
+"SELECT * FROM Customers WHERE CustomerID = 24;
+",0.365234375
+"DELETE FROM Orders WHERE OrderID = 92;
+",0.336669921875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 30;
+",0.33935546875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (12, 'First12', 'Last12');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (9, 'Product9', 644.5828822302493, 122);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (100, 'Product100', 927.4587985278919, 183);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (73, 'First73', 'Last73');
+",
+"DELETE FROM Orders WHERE OrderID = 38;
+",1.02001953125
+"SELECT * FROM Customers WHERE CustomerID = 77;
+",0.36572265625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 87;
+",0.3720703125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 48;
+",0.3349609375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 97;
+",0.378662109375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 98;
+",0.35400390625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (58, 'First58', 'Last58');
+",
+"SELECT * FROM Products WHERE ProductID = 92;
+",0.781005859375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (5, 'Product5', 207.4954561185869, 168);
+",
+"SELECT * FROM Customers WHERE CustomerID = 13;
+",0.98388671875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 75;
+",0.827880859375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (29, 'Product29', 601.841633035255, 172);
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 33;
+",1.207275390625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 6;
+",0.897216796875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 94;
+",0.340087890625
+"SELECT * FROM Products WHERE ProductID = 20;
+",0.34912109375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 22;
+",0.3359375
+"SELECT * FROM Products WHERE ProductID = 18;
+",0.3330078125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (90, 'Product90', 941.6048520520885, 34);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 75;
+",1.180908203125
+"SELECT * FROM Customers WHERE CustomerID = 100;
+",0.480224609375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 81;
+",0.510986328125
+"DELETE FROM Orders WHERE OrderID = 61;
+",0.39306640625
+"SELECT * FROM Customers WHERE CustomerID = 48;
+",0.456787109375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (34, 'First34', 'Last34');
+",
+"DELETE FROM Orders WHERE OrderID = 60;
+",0.91748046875
+"DELETE FROM Orders WHERE OrderID = 85;
+",0.373291015625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 73;
+",1.036376953125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (45, 'Product45', 87.42396999396495, 191);
+",
+"SELECT * FROM Products WHERE ProductID = 76;
+",0.76025390625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (74, 'Product74', 487.22891317225685, 6);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (36, 'First36', 'Last36');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (89, 'Product89', 919.5653683972018, 153);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 76;
+",0.73388671875
+"SELECT * FROM Products WHERE ProductID = 9;
+",0.329833984375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 67;
+",0.464599609375
+"SELECT * FROM Customers WHERE CustomerID = 85;
+",0.363037109375
+"SELECT * FROM Products WHERE ProductID = 80;
+",0.33984375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 47;
+",0.304931640625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 93;
+",0.776123046875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (76, 'First76', 'Last76');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 81;
+",0.99609375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 49;
+",0.414794921875
+"SELECT * FROM Products WHERE ProductID = 95;
+",0.355712890625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (3, 'Product3', 663.7968808311507, 199);
+",
+"DELETE FROM Orders WHERE OrderID = 23;
+",0.897705078125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 72;
+",0.34326171875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 25;
+",0.3388671875
+"SELECT * FROM Products WHERE ProductID = 14;
+",0.503173828125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 43;
+",0.336181640625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 48;
+",1.0361328125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 51;
+",0.928955078125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 44;
+",0.402099609375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (93, 'Product93', 58.019175611589816, 107);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 30;
+",1.01806640625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 9;
+",0.360107421875
+"SELECT * FROM Products WHERE ProductID = 88;
+",0.342041015625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (97, 'Product97', 559.945520149581, 59);
+",
+"DELETE FROM Orders WHERE OrderID = 73;
+",0.77294921875
+"SELECT * FROM Products WHERE ProductID = 7;
+",0.360107421875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 71;
+",0.3330078125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 50;
+",0.3359375
+"SELECT * FROM Products WHERE ProductID = 43;
+",0.329833984375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 1;
+",0.348876953125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (100, 'First100', 'Last100');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 62;
+",1.10888671875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 26;
+",0.5380859375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 17;
+",0.314697265625
+"DELETE FROM Orders WHERE OrderID = 85;
+",0.326171875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 8;
+",0.355712890625
+"SELECT * FROM Customers WHERE CustomerID = 92;
+",0.33203125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (66, 'First66', 'Last66');
+",
+"DELETE FROM Orders WHERE OrderID = 41;
+",0.8251953125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (87, 'Product87', 388.92876659265806, 77);
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 92;
+",1.009033203125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 2;
+",0.371337890625
+"SELECT * FROM Customers WHERE CustomerID = 28;
+",0.386962890625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 57;
+",0.808837890625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (95, 'First95', 'Last95');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 21;
+",0.885986328125
+"DELETE FROM Orders WHERE OrderID = 70;
+",0.3740234375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 64;
+",0.402099609375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 74;
+",0.933837890625
+"DELETE FROM Orders WHERE OrderID = 48;
+",0.324951171875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (55, 'First55', 'Last55');
+",
+"SELECT * FROM Customers WHERE CustomerID = 38;
+",1.070068359375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 26;
+",0.370849609375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 48;
+",0.701171875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 98;
+",0.321044921875
+"SELECT * FROM Products WHERE ProductID = 91;
+",0.318115234375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (96, 'Product96', 162.56243578700747, 67);
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 76;
+",1.1611328125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 53;
+",0.387939453125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (45, 'First45', 'Last45');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 58;
+",0.912841796875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (69, 'Product69', 745.4956822216487, 29);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 15;
+",1.040283203125
+"DELETE FROM Orders WHERE OrderID = 52;
+",0.3779296875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (27, 'Product27', 665.7906213225943, 137);
+",
+"DELETE FROM Orders WHERE OrderID = 13;
+",0.965087890625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 72;
+",0.33203125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (77, 'Product77', 341.439608408, 57);
+",
+"SELECT * FROM Products WHERE ProductID = 37;
+",0.851806640625
+"SELECT * FROM Customers WHERE CustomerID = 19;
+",0.384033203125
+"DELETE FROM Orders WHERE OrderID = 13;
+",0.3701171875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 31;
+",0.94580078125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 32;
+",0.417236328125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 93;
+",0.44189453125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 72;
+",0.371826171875
+"DELETE FROM Orders WHERE OrderID = 40;
+",0.469970703125
+"SELECT * FROM Customers WHERE CustomerID = 95;
+",0.318115234375
+"SELECT * FROM Customers WHERE CustomerID = 21;
+",0.318115234375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 83;
+",0.4052734375
+"DELETE FROM Orders WHERE OrderID = 25;
+",0.36083984375
+"SELECT * FROM Customers WHERE CustomerID = 19;
+",0.282958984375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 23;
+",0.40380859375
+"SELECT * FROM Customers WHERE CustomerID = 51;
+",0.354248046875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (76, 'Product76', 111.21297940799354, 48);
+",
+"DELETE FROM Orders WHERE OrderID = 89;
+",1.027099609375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 26;
+",0.3388671875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 27;
+",0.779052734375
+"SELECT * FROM Products WHERE ProductID = 4;
+",0.39208984375
+"SELECT * FROM Customers WHERE CustomerID = 45;
+",0.39501953125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 14;
+",0.342041015625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 80;
+",0.306884765625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 6;
+",0.7529296875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 42;
+",0.3359375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 58;
+",0.353271484375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (28, 'Product28', 56.567427926828316, 151);
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 59;
+",0.862060546875
+"SELECT * FROM Customers WHERE CustomerID = 32;
+",0.377197265625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 39;
+",0.353759765625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 28;
+",0.358154296875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 32;
+",0.334716796875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 99;
+",0.375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (79, 'Product79', 297.0866735075652, 146);
+",
+"DELETE FROM Orders WHERE OrderID = 76;
+",1.009033203125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 22;
+",0.38525390625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 58;
+",0.328857421875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 49;
+",0.330078125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (60, 'First60', 'Last60');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 7;
+",1.188232421875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 87;
+",0.943115234375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 43;
+",0.422119140625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (23, 'Product23', 84.74784909886326, 111);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 43;
+",0.995849609375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 61;
+",0.367919921875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (53, 'First53', 'Last53');
+",
+"DELETE FROM Orders WHERE OrderID = 71;
+",1.074951171875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 40;
+",0.43408203125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 78;
+",0.320068359375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (72, 'Product72', 528.1502104332308, 37);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 2;
+",0.7890625
+"SELECT * FROM Products WHERE ProductID = 60;
+",0.3740234375
+"DELETE FROM Orders WHERE OrderID = 28;
+",0.333984375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 65;
+",0.938720703125
+"SELECT * FROM Products WHERE ProductID = 49;
+",0.376953125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 68;
+",0.81884765625
+"DELETE FROM Orders WHERE OrderID = 39;
+",0.343017578125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 18;
+",1.164794921875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 22;
+",1.0
+"SELECT * FROM Products WHERE ProductID = 60;
+",0.34716796875
+"DELETE FROM Orders WHERE OrderID = 62;
+",0.372802734375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 96;
+",0.617919921875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (20, 'Product20', 813.5751371154728, 163);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (66, 'First66', 'Last66');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (25, 'Product25', 126.33245525149223, 80);
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 55;
+",1.434326171875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (83, 'First83', 'Last83');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 80;
+",0.919921875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (51, 'Product51', 947.1207465100409, 16);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (52, 'First52', 'Last52');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 36;
+",1.238037109375
+"SELECT * FROM Customers WHERE CustomerID = 62;
+",0.39306640625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 2;
+",0.513916015625
+"DELETE FROM Orders WHERE OrderID = 17;
+",0.3779296875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 72;
+",0.3310546875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 49;
+",1.05419921875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (100, 'First100', 'Last100');
+",
+"SELECT * FROM Customers WHERE CustomerID = 22;
+",1.093994140625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (80, 'First80', 'Last80');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (64, 'First64', 'Last64');
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 90;
+",0.83251953125
+"SELECT * FROM Customers WHERE CustomerID = 34;
+",0.320068359375
+"SELECT * FROM Products WHERE ProductID = 15;
+",0.507080078125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 77;
+",1.185546875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 5;
+",0.836181640625
+"SELECT * FROM Products WHERE ProductID = 30;
+",0.36181640625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (28, 'First28', 'Last28');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (96, 'Product96', 599.3301901303075, 184);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 17;
+",1.09814453125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 96;
+",0.876220703125
+"SELECT * FROM Customers WHERE CustomerID = 59;
+",0.3349609375
+"SELECT * FROM Products WHERE ProductID = 7;
+",0.534912109375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (27, 'Product27', 38.73528053536009, 132);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 59;
+",1.008056640625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 28;
+",0.904296875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 59;
+",0.36474609375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 78;
+",0.329345703125
+"SELECT * FROM Products WHERE ProductID = 29;
+",0.3251953125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (82, 'Product82', 99.97370651854933, 107);
+",
+"SELECT * FROM Products WHERE ProductID = 78;
+",1.017822265625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 68;
+",0.530029296875
+"DELETE FROM Orders WHERE OrderID = 88;
+",0.33203125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 84;
+",0.8251953125
+"DELETE FROM Orders WHERE OrderID = 36;
+",0.332763671875
+"SELECT * FROM Products WHERE ProductID = 53;
+",0.343017578125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 75;
+",0.379150390625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 80;
+",0.35107421875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (93, 'First93', 'Last93');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 23;
+",1.19091796875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 79;
+",0.51025390625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (81, 'Product81', 671.0563247745603, 167);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 17;
+",0.76904296875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 49;
+",0.4208984375
+"DELETE FROM Orders WHERE OrderID = 99;
+",0.39208984375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 70;
+",1.238037109375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (27, 'First27', 'Last27');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (41, 'First41', 'Last41');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (43, 'First43', 'Last43');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 37;
+",4.05908203125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 50;
+",0.8369140625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 45;
+",0.9560546875
+"DELETE FROM Orders WHERE OrderID = 14;
+",0.356201171875
+"DELETE FROM Orders WHERE OrderID = 11;
+",0.327880859375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (10, 'First10', 'Last10');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 83;
+",1.2158203125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 21;
+",0.31103515625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 65;
+",0.276123046875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 64;
+",0.257080078125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 54;
+",0.287841796875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (65, 'First65', 'Last65');
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 93;
+",0.926025390625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 44;
+",0.289794921875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 22;
+",0.322021484375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 5;
+",0.291259765625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 67;
+",0.27392578125
+"SELECT * FROM Products WHERE ProductID = 43;
+",0.3623046875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 31;
+",0.3740234375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (90, 'Product90', 145.67106905176666, 91);
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 68;
+",1.954833984375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 51;
+",0.351318359375
+"SELECT * FROM Products WHERE ProductID = 84;
+",0.368896484375
+"SELECT * FROM Customers WHERE CustomerID = 58;
+",0.292236328125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 85;
+",0.284912109375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 91;
+",0.815673828125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (60, 'First60', 'Last60');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 98;
+",1.109130859375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 13;
+",0.36181640625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (1, 'First1', 'Last1');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 39;
+",0.746826171875
+"SELECT * FROM Customers WHERE CustomerID = 94;
+",0.328125
+"DELETE FROM Orders WHERE OrderID = 71;
+",0.27392578125
+"DELETE FROM Orders WHERE OrderID = 18;
+",0.302978515625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 35;
+",0.35107421875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (76, 'First76', 'Last76');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 99;
+",1.220947265625
+"DELETE FROM Orders WHERE OrderID = 96;
+",0.279052734375
+"SELECT * FROM Customers WHERE CustomerID = 35;
+",0.262939453125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 54;
+",0.351806640625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (55, 'First55', 'Last55');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (14, 'First14', 'Last14');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 75;
+",0.81982421875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 23;
+",1.199951171875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 64;
+",0.579833984375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 89;
+",0.384033203125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 4;
+",0.426025390625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (49, 'First49', 'Last49');
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 76;
+",1.08203125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 3;
+",0.406005859375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 73;
+",0.326904296875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 9;
+",0.322021484375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 65;
+",0.90185546875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (63, 'Product63', 629.7978076172906, 9);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (83, 'First83', 'Last83');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 32;
+",0.934814453125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 1;
+",0.973876953125
+"DELETE FROM Orders WHERE OrderID = 39;
+",0.35986328125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 49;
+",0.582763671875
+"SELECT * FROM Products WHERE ProductID = 42;
+",0.337890625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 24;
+",0.4130859375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 71;
+",0.585205078125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 20;
+",1.093994140625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 20;
+",1.081787109375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 3;
+",0.830078125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (20, 'First20', 'Last20');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (3, 'Product3', 517.6470596164684, 178);
+",
+"SELECT * FROM Products WHERE ProductID = 3;
+",1.31201171875
+"SELECT * FROM Customers WHERE CustomerID = 40;
+",0.550048828125
+"SELECT * FROM Customers WHERE CustomerID = 50;
+",0.404052734375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 6;
+",1.266845703125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 75;
+",0.394287109375
+"SELECT * FROM Customers WHERE CustomerID = 17;
+",0.360107421875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 71;
+",0.349365234375
+"SELECT * FROM Products WHERE ProductID = 65;
+",0.337890625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (92, 'First92', 'Last92');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (25, 'Product25', 798.3033915337654, 121);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (30, 'First30', 'Last30');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 99;
+",0.875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (44, 'Product44', 44.68464670675364, 69);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (3, 'First3', 'Last3');
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (100, 'First100', 'Last100');
+",
+"SELECT * FROM Products WHERE ProductID = 45;
+",0.841796875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 6;
+",1.0732421875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 7;
+",0.3740234375
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 14;
+",0.37890625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (2, 'First2', 'Last2');
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 8;
+",1.188232421875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 63;
+",0.373779296875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (91, 'First91', 'Last91');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (63, 'Product63', 947.8262390446286, 17);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 79;
+",0.850830078125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (55, 'Product55', 964.2450753307476, 55);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (99, 'Product99', 247.30299569006053, 157);
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 5;
+",1.14501953125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 5;
+",0.362060546875
+"SELECT * FROM Products WHERE ProductID = 75;
+",0.3662109375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (5, 'Product5', 754.4820714709754, 183);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 63;
+",0.9951171875
+"DELETE FROM Orders WHERE OrderID = 72;
+",0.35009765625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 42;
+",0.369873046875
+"SELECT * FROM Customers WHERE CustomerID = 50;
+",0.35205078125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 47;
+",0.3447265625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 60;
+",0.85400390625
+"SELECT * FROM Customers WHERE CustomerID = 28;
+",0.35595703125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 25;
+",0.7548828125
+"DELETE FROM Orders WHERE OrderID = 54;
+",0.346923828125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (33, 'First33', 'Last33');
+",
+"SELECT * FROM Products WHERE ProductID = 49;
+",0.861328125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 65;
+",0.364013671875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (26, 'Product26', 759.6303724698103, 193);
+",
+"SELECT * FROM Products WHERE ProductID = 12;
+",1.087158203125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (27, 'Product27', 760.7678815829753, 39);
+",
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (78, 'First78', 'Last78');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 2;
+",0.7900390625
+"SELECT * FROM Products WHERE ProductID = 95;
+",0.3349609375
+"DELETE FROM Orders WHERE OrderID = 41;
+",0.349365234375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (56, 'Product56', 886.566354396132, 134);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (60, 'Product60', 489.6972292040978, 57);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (51, 'Product51', 940.0070931579428, 37);
+",
+"DELETE FROM Orders WHERE OrderID = 82;
+",0.84814453125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (24, 'First24', 'Last24');
+",
+"SELECT * FROM Products WHERE ProductID = 78;
+",0.97900390625
+"SELECT * FROM Products WHERE ProductID = 68;
+",0.419677734375
+"SELECT * FROM Customers WHERE CustomerID = 88;
+",0.503173828125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 2;
+",0.3427734375
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 32;
+",0.56982421875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 80;
+",1.11181640625
+"SELECT * FROM Products WHERE ProductID = 86;
+",0.3369140625
+"DELETE FROM Orders WHERE OrderID = 94;
+",0.330322265625
+"DELETE FROM Orders WHERE OrderID = 56;
+",0.31298828125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 85;
+",0.325927734375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 20;
+",0.31201171875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 87;
+",0.35595703125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 22;
+",0.860107421875
+"DELETE FROM Orders WHERE OrderID = 36;
+",0.384033203125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 96;
+",0.902099609375
+"SELECT * FROM Customers WHERE CustomerID = 81;
+",0.479736328125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 88;
+",0.443115234375
+"SELECT * FROM Customers WHERE CustomerID = 30;
+",0.379638671875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 68;
+",0.3427734375
+"SELECT * FROM Customers WHERE CustomerID = 27;
+",0.321044921875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 4;
+",0.3388671875
+"SELECT * FROM Customers WHERE CustomerID = 36;
+",0.3359375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 46;
+",0.315185546875
+"SELECT * FROM Customers WHERE CustomerID = 38;
+",0.30078125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 82;
+",1.10009765625
+"SELECT * FROM Customers WHERE CustomerID = 69;
+",0.44921875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 36;
+",0.430908203125
+"DELETE FROM Orders WHERE OrderID = 34;
+",0.434326171875
+"SELECT * FROM Products WHERE ProductID = 24;
+",0.3876953125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (87, 'First87', 'Last87');
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 99;
+",1.00390625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (95, 'First95', 'Last95');
+",
+"SELECT * FROM Customers WHERE CustomerID = 32;
+",1.31201171875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 92;
+",0.419189453125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 73;
+",0.356689453125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (25, 'Product25', 495.3934998352305, 168);
+",
+"SELECT * FROM Products WHERE ProductID = 80;
+",1.584716796875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 11;
+",0.96484375
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 48;
+",1.007080078125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 58;
+",0.417724609375
+"SELECT * FROM Products WHERE ProductID = 99;
+",0.34619140625
+"SELECT * FROM Products WHERE ProductID = 77;
+",0.43212890625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 93;
+",0.793212890625
+"SELECT * FROM Customers WHERE CustomerID = 5;
+",0.45166015625
+"SELECT * FROM Customers WHERE CustomerID = 1;
+",0.385986328125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 4;
+",0.38427734375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 81;
+",0.375244140625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 12;
+",0.4189453125
+"SELECT * FROM Products WHERE ProductID = 84;
+",0.380126953125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (2, 'First2', 'Last2');
+",
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 45;
+",0.93212890625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 31;
+",1.123046875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 64;
+",0.397216796875
+"SELECT * FROM Products WHERE ProductID = 54;
+",0.547119140625
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 13;
+",0.971923828125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 22;
+",0.412109375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (31, 'First31', 'Last31');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 53;
+",1.080078125
+"SELECT * FROM Customers WHERE CustomerID = 61;
+",0.373291015625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 18;
+",0.355224609375
+"DELETE FROM Orders WHERE OrderID = 69;
+",0.31591796875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 50;
+",0.339111328125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (69, 'First69', 'Last69');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 97;
+",0.783203125
+"DELETE FROM Orders WHERE OrderID = 30;
+",0.322998046875
+"DELETE FROM Orders WHERE OrderID = 40;
+",0.307861328125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (14, 'First14', 'Last14');
+",
+"DELETE FROM Orders WHERE OrderID = 24;
+",0.930908203125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 9;
+",1.009033203125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (87, 'Product87', 312.45523651133567, 198);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 89;
+",0.746826171875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (55, 'Product55', 753.0618536613738, 48);
+",
+"SELECT * FROM Customers WHERE CustomerID = 25;
+",0.783203125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 82;
+",0.345947265625
+"SELECT * FROM Customers WHERE CustomerID = 11;
+",0.3740234375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (36, 'First36', 'Last36');
+",
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 7;
+",0.836669921875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 41;
+",0.34423828125
+"SELECT * FROM Customers WHERE CustomerID = 33;
+",0.31494140625
+"SELECT * FROM Customers WHERE CustomerID = 71;
+",0.3251953125
+"SELECT * FROM Products WHERE ProductID = 95;
+",0.354248046875
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 66;
+",0.35400390625
+"SELECT * FROM Customers WHERE CustomerID = 30;
+",0.317138671875
+"DELETE FROM Orders WHERE OrderID = 37;
+",0.342041015625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (100, 'First100', 'Last100');
+",
+"SELECT * FROM Customers WHERE CustomerID = 9;
+",0.940185546875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (56, 'Product56', 281.91394310517757, 58);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 35;
+",1.01904296875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (6, 'First6', 'Last6');
+",
+"DELETE FROM Orders WHERE OrderID = 97;
+",1.672119140625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 91;
+",0.395751953125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 33;
+",0.322998046875
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 95;
+",0.388916015625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 49;
+",0.3671875
+"SELECT * FROM Customers WHERE CustomerID = 3;
+",0.384033203125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 19;
+",0.863037109375
+"SELECT * FROM Products WHERE ProductID = 33;
+",0.343994140625
+"SELECT * FROM Customers WHERE CustomerID = 38;
+",0.341064453125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 94;
+",0.410888671875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 46;
+",0.27197265625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 48;
+",0.353271484375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (37, 'First37', 'Last37');
+",
+"SELECT * FROM Customers WHERE CustomerID = 45;
+",1.021240234375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (46, 'Product46', 635.2527020736491, 131);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 81;
+",1.293212890625
+"SELECT * FROM Customers WHERE CustomerID = 43;
+",0.364013671875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 61;
+",0.737060546875
+"SELECT * FROM Products WHERE ProductID = 81;
+",0.33984375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (9, 'Product9', 877.7492813039521, 46);
+",
+"SELECT * FROM Customers WHERE CustomerID = 80;
+",0.94775390625
+"DELETE FROM Orders WHERE OrderID = 12;
+",0.54638671875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (3, 'Product3', 885.1440253407401, 175);
+",
+"SELECT * FROM Customers WHERE CustomerID = 62;
+",1.148193359375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 81;
+",0.380859375
+"SELECT * FROM Products WHERE ProductID = 49;
+",0.343017578125
+"SELECT * FROM Products WHERE ProductID = 8;
+",0.39599609375
+"SELECT * FROM Customers WHERE CustomerID = 4;
+",0.354736328125
+"SELECT * FROM Products WHERE ProductID = 34;
+",0.361328125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 18;
+",0.4091796875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 12;
+",0.518798828125
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 15;
+",0.31298828125
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 17;
+",0.35986328125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 68;
+",0.7587890625
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (19, 'First19', 'Last19');
+",
+"DELETE FROM Orders WHERE OrderID = 67;
+",1.040771484375
+"DELETE FROM Orders WHERE OrderID = 99;
+",0.3232421875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (41, 'Product41', 227.9439743697054, 165);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 70;
+",1.027099609375
+"DELETE FROM Orders WHERE OrderID = 36;
+",0.38720703125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (74, 'Product74', 410.12824307787764, 92);
+",
+"DELETE FROM Orders WHERE OrderID = 24;
+",0.964111328125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 48;
+",0.34423828125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (37, 'Product37', 977.0259714354598, 146);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 24;
+",0.9697265625
+"DELETE FROM Orders WHERE OrderID = 95;
+",0.3330078125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (72, 'Product72', 65.66191839736648, 139);
+",
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 59;
+",0.90380859375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (54, 'First54', 'Last54');
+",
+"SELECT * FROM Products WHERE ProductID = 58;
+",1.018798828125
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 56;
+",0.412841796875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (2, 'First2', 'Last2');
+",
+"DELETE FROM Orders WHERE OrderID = 6;
+",1.450927734375
+"SELECT * FROM Products WHERE ProductID = 33;
+",0.435791015625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 80;
+",1.22412109375
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 99;
+",0.51806640625
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 31;
+",0.3359375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (45, 'First45', 'Last45');
+",
+"SELECT * FROM Customers WHERE CustomerID = 35;
+",1.43603515625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (54, 'Product54', 653.4070637599386, 137);
+",
+"SELECT * FROM Products WHERE ProductID = 98;
+",1.085205078125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (52, 'First52', 'Last52');
+",
+"SELECT * FROM Products WHERE ProductID = 6;
+",0.984130859375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (17, 'Product17', 545.3590871236304, 197);
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 34;
+",1.397705078125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (58, 'First58', 'Last58');
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (97, 'Product97', 792.0533099240581, 169);
+",
+"SELECT * FROM Products WHERE ProductID = 18;
+",0.902099609375
+"SELECT * FROM Customers WHERE CustomerID = 56;
+",0.343994140625
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (61, 'Product61', 954.0867106201058, 107);
+",
+"SELECT * FROM Products WHERE ProductID = 3;
+",1.06494140625
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 54;
+",1.239990234375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 90;
+",0.388916015625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 82;
+",0.366943359375
+"SELECT * FROM Customers WHERE CustomerID = 54;
+",0.352294921875
+"SELECT * FROM Products WHERE ProductID = 13;
+",0.3701171875
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 53;
+",0.7607421875
+"SELECT * FROM Products WHERE ProductID = 36;
+",0.370361328125
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 85;
+",0.35302734375
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 25;
+",0.358154296875
+"SELECT * FROM Products WHERE ProductID = 60;
+",0.345947265625
+"SELECT COUNT(*) FROM Orders WHERE OrderID = 32;
+",0.313232421875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 4;
+",0.325927734375
+"SELECT * FROM Customers WHERE CustomerID = 1;
+",0.333984375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (61, 'First61', 'Last61');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 51;
+",0.7900390625
+"DELETE FROM Orders WHERE OrderID = 96;
+",0.3291015625
+"SELECT * FROM Customers WHERE CustomerID = 95;
+",0.326171875
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (7, 'First7', 'Last7');
+",
+"DELETE FROM Orders WHERE OrderID = 68;
+",1.037109375
+"SELECT * FROM Products WHERE ProductID = 58;
+",0.36328125
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 14;
+",0.349853515625
+"SELECT * FROM Products WHERE ProductID = 11;
+",0.35498046875
+"UPDATE Products SET Price = Price * 1.05 WHERE ProductID = 69;
+",0.9482421875
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (84, 'Product84', 800.4985903769929, 151);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (34, 'Product34', 701.6004940460455, 88);
+",
+"UPDATE Customers SET LastName = 'Updated' WHERE CustomerID = 47;
+",2.283203125
+"SELECT * FROM Customers WHERE CustomerID = 5;
+",0.35400390625
+"SELECT p.ProductName, od.Quantity FROM OrderDetails od JOIN Products p ON od.ProductID = p.ProductID WHERE od.OrderID = 93;
+",0.40283203125
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (61, 'First61', 'Last61');
+",
+"DELETE FROM Orders WHERE OrderID = 31;
+",0.998046875
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 35;
+",0.433349609375
+"SELECT * FROM Customers WHERE CustomerID = 68;
+",0.370849609375
+"INSERT INTO Customers (CustomerID, FirstName, LastName) VALUES (9, 'First9', 'Last9');
+",
+"SELECT o.OrderID, c.FirstName, c.LastName FROM Orders o JOIN Customers c ON o.CustomerID = c.CustomerID WHERE o.OrderID = 67;
+",5.777099609375
+"SELECT * FROM Customers WHERE CustomerID = 34;
+",0.662109375
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (82, 'Product82', 76.57256437107627, 58);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (81, 'Product81', 619.6132855085658, 17);
+",
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (22, 'Product22', 263.8400722310199, 181);
+",
+"SELECT * FROM Products WHERE ProductID = 78;
+",1.053955078125
+"INSERT INTO Products (ProductID, ProductName, Price, Stock) VALUES (1, 'Product1', 112.14926859598161, 103);
+",
+SELECT COUNT(*) FROM Orders WHERE OrderID = 21;,0.89501953125
